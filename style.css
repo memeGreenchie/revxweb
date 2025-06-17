@@ -512,7 +512,7 @@ span.total-section-num {
     transition: all .5s ease;
     font-size: 18px;
     line-height: 25px;
-    color: #fff;
+    color: #000;
     margin-bottom: 15px;
 }
 
@@ -1019,6 +1019,12 @@ span.total-section-num {
     8. Portfolio Section
 ====================================== */
 
+
+
+
+
+
+
 .grid {    
     width: 100%;
     margin: 0 auto;
@@ -1048,6 +1054,9 @@ span.total-section-num {
 .grid-item.p_one_half {
     width: calc(50% - 20px);
 }
+.grid-item.p_one_five {
+    width: calc(20% - 10px);
+}
 
 .grid-item.p_one {
     width: 100%;
@@ -1071,7 +1080,7 @@ span.total-section-num {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #45f32e;
+    background-color: #05250157;
     left: 0;
     top: 0;
     opacity: 0;
@@ -1711,7 +1720,7 @@ footer {
     color: #fff;
     text-align: center;
     background-image: url(images/footer.png);
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center top;
